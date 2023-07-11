@@ -1,23 +1,110 @@
+/* Primary Things */
 *{
     margin: 0px;
     padding: 0px;
 
 }
+.btn{
+padding: 20px 43px;
+border-radius: 8px;
+background-color:#E55473 ;
+color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
 
+
+}
+
+#btn{
+    margin-top: 32px;
+
+}
+.btn:hover {
+    color: #181818;
+  }
+/* Main part */
 .banner-container{
     display: flex;
     align-items:center ;
-    justify-content:space-around ;
-    /* width: 1920px;
-    height: 850px; */
-    
+    justify-content:space-between ;
+    width: 1920px;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
     border: 1px solid gray;
-    background-color: rgba(229, 84, 115, 0.10); ;
-    /* background-image: url("./Image/background.png"),linear-gradient(45deg,#000,#888); */
+    background-color: rgba(229, 84, 115, 0.10); 
+   
 }
+    
 
-banner-photo{
+.banner-photo{
     width: 635px;
     height: 800px;
     
+}
+.banner-img{
+    margin-right: 240px;
+    margin-top: 25px;
+}
+
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+    margin-top: 32px;
+}
+.title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    width: 700px;
+    font-weight: 900;
+   
+     
+}
+.banner-text{
+    margin-left: 240px;
+}
+.banner-con{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center ;
+    justify-content:space-between ;
+    width: 1920px;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    
+    background-image: linear-gradient( #ffcccc,#ffb3ff);
+}
+
+.tittle{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    width: 700px;
+    font-weight: 900;
+
+}
+.descrip{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+    margin-top: 32px;
+
+}
+
+.second-banner-img{
+    margin-left: 50px;
 }

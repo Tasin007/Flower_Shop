@@ -33,7 +33,6 @@ font-weight: 700;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 90px;
-    border: 1px solid gray;
     background-color: rgba(229, 84, 115, 0.10); 
    
 }
@@ -108,3 +107,119 @@ font-weight: 700;
 .second-banner-img{
     margin-left: 50px;
 }
+
+
+
+/* Our Featured Flower Part */
+
+
+.flower-contain{
+    width: 1920px;
+    height: 850px;
+
+}
+.flower-description{
+    text-align: center;
+    margin-top: 178px;
+    margin-bottom: 48px;
+}
+
+.flower-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+.descri{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+/* flower images part */
+.flower-img{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 24px;
+    vertical-align: top;
+    
+}
+
+
+
+.flower-img1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);   
+    padding: 110px 78px 0px 76px;
+    width: 310px;
+height: 428px;
+}
+
+.flower-img2{
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 110px 78px 0px 76px;
+    width: 310px;
+height: 428px;
+}
+
+.flower-img3{
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 110px 78px 0px 76px;
+    width: 310px;
+height: 428px;
+}
+
+.caption{
+    
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    
+}
+.caption:hover{
+    color: rgb(214, 51, 78);
+}
+.flower-Container{
+    margin-bottom: 128px;
+}
+
+/* delivery and services part */
+
+.rectangle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 240px;
+    text-align: center;
+}
+
+/* Instagram part */
+.img-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 24px;
+    vertical-align: top;
+
+}
+
+

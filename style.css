@@ -12,6 +12,7 @@ color: #FFF;
 font-family: Lato;
 font-size: 20px;
 font-weight: 700;
+box-shadow:4px 4px 2px rgb(104, 97, 97);
 
 
 }
@@ -22,6 +23,10 @@ font-weight: 700;
 }
 .btn:hover {
     color: #181818;
+  }
+
+  #btn1{
+    margin-right: 15px;
   }
 /* Main part */
 .banner-container{
@@ -80,7 +85,6 @@ font-weight: 700;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 90px;
-    
     background-image: linear-gradient( #ffcccc,#ffb3ff);
 }
 
@@ -161,7 +165,8 @@ font-weight: 700;
     background: rgba(167, 33, 98, 0.15);   
     padding: 110px 78px 0px 76px;
     width: 310px;
-height: 428px;
+    height: 428px;
+    box-shadow:10px 10px 5px lightblue;
 }
 
 .flower-img2{
@@ -169,7 +174,8 @@ height: 428px;
     background-color: rgba(5, 151, 160, 0.15);
     padding: 110px 78px 0px 76px;
     width: 310px;
-height: 428px;
+    height: 428px;
+    box-shadow:10px 10px 5px lightblue;
 }
 
 .flower-img3{
@@ -177,7 +183,8 @@ height: 428px;
     background-color: rgba(71, 125, 17, 0.15);
     padding: 110px 78px 0px 76px;
     width: 310px;
-height: 428px;
+    height: 428px;
+    box-shadow:10px 10px 5px lightblue;
 }
 
 .caption{
@@ -210,6 +217,7 @@ height: 428px;
     background: rgba(39, 39, 39, 0.05);
     margin: 240px;
     text-align: center;
+    box-shadow:10px 10px 5px lightblue;
 }
 
 /* Instagram part */
@@ -222,6 +230,10 @@ height: 428px;
 
 }
 
+.im{
+    box-shadow:10px 10px 5px lightblue; 
+}
+
 /* Get The Latest Deals */
 
 .latest-Deals{
@@ -232,6 +244,7 @@ height: 428px;
     background-image: url("./Flower Asset/Rectangle\ 9.png");
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow:10px 10px 5px lightblue;
     
   }
   .latest-title{
